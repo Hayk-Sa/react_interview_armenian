@@ -2,106 +2,106 @@
 
 | №   | Հարց                                                                                                                                                                                                                                                     |
 | --- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1   | [Ի՞նչ է React-ը։](#Ի՞նչ-է-React-ը:)                                                                                                                                                                                                                      |
-| 2   | [Որո՞նք են React-ի օգտագործման հիմնական առավելությունները։](#Որո՞նք-են-React-ի-օգտագործման-հիմնական-առավելությունները։)                                                                                                                                  |
-| 3   | [Ի՞նչ է JSX-ը։](#Ի՞նչ-է-JSX-ը։)                                                                                                                                                                                                                          |
-| 4   | [Որո՞նք են React-ում class components-ների և functional components֊ների միջև հիմնական տարբերությունները:](#Որո՞նք-են-React-ում-class-components-ների-և-functional-components֊ների-միջև-հիմնական-տարբերությունները)                                       |
-| 5   | [Ի՞նչ է վիրտուալ DOM-ը և ինչպե՞ս է այն աշխատում։](#Ի՞նչ-է-վիրտուալ-DOM-ը-և-ինչպե՞ս-է-այն-աշխատում։)                                                                                                                                                      |
-| 6   | [Ինչպիսի՞ կոմպոնենտների կյանքի ցիկլի մեթոդներ գիտեք։](#Ինչպիսի՞-կոմպոնենտների-կյանքի-ցիկլի-մեթոդներ-գիտեք։)                                                                                                                                              |
-| 7   | [Ի՞նչ է React կոմպոնենտի «ստատուսը» (state):](#Ի՞նչ-է-React-կոմպոնենտի-ստատուսը-state:)                                                                                                                                                                  |
-| 8   | [Ինչպե՞ս թարմացնել կոմպոնենտի վիճակը (state):](#Ինչպե՞ս-թարմացնել-կոմպոնենտի-վիճակը-state)                                                                                                                                                               |
-| 9   | [Ի՞նչ են React-ում props-երը:](#Ի՞նչ-են-React-ում-props-երը)                                                                                                                                                                                             |
-| 10  | [Ինչ տարբերություն կա state-ի և props-երի միջև:](#Ինչ-տարբերություն-կա-state-և-props-երի-միջև)                                                                                                                                                           |
-| 11  | [Ինչպես կարելի է մշակել իրադարձությունները (events) React-ում:](#Ինչպես-կարելի-է-մշակել-իրադարձությունները-events-React-ում)                                                                                                                             |
-| 12  | [Ի՞նչ է React-ում պայմանական (conditional) rendering-ը:](#Ի՞նչ-է-React-ում-պայմանականв-conditional-rendering-ը)                                                                                                                                          |
-| 13  | [Ինչպես փոխանցել տվյալները կոմպոնենտների միջև՝ վերև և ներքև իերարխիայի մեջ:](#Ինչպես-փոխանցել-տվյալները-կոմպոնենտների-միջև՝-վերև-և-ներքև-իերարխիայի-մեջ)                                                                                                 |
-| 14  | [Ինչպես կատարել HTTP հարցումներ React-ում:](#Ինչպես-կատարել-http-հարցումներ-React-ում)                                                                                                                                                                   |
-| 15  | [Ի՞նչ է React-ում context-ը և ինչի համար է օգտագործվում:](#Ի՞նչ-է-React-ում-context-ը-և-ինչի-համար-է-օգտագործվում)                                                                                                                                       |
-| 16  | [Ինչպես իրականացնել PureComponent React-ում:](#Ինչպես-իրականացնել-PureComponent-React-ում)                                                                                                                                                               |
-| 17  | [Ի՞նչ են React էլեմենտների ցանկերում keys-երը և ինչի համար են դրանք անհրաժեշտ:](#Ի՞նչ-են-React-էլեմենտների-ցանկերում-keys-երը-և-ինչի-համար-են-դրանք-անհրաժեշտ)                                                                                           |
-| 18  | [Ինչպես օգտագործել (styles) React կոմպոնենտներում:](#Ինչպես-օգտագործել-styles-React-կոմպոնենտներում)                                                                                                                                                     |
-| 19  | [Ի՞նչ են «կառավարվող կոմպոնենտները» (controlled components) React-ում:](#Ի՞նչ-են-«կառավարվող-կոմպոնենտները»-controlled-components-React-ում)                                                                                                             |
-| 20  | [Ի՞նչ են «չկառավարվող կոմպոնենտները» (uncontrolled components) React-ում:](#Ի՞նչ-են-«չկառավարվող-կոմպոնենտները»-uncontrolled-components-React-ում)                                                                                                       |
-| 21  | [Ինչպես ստեղծել form React-ում:](#Ինչպես-ստեղծել-form-React-ում)                                                                                                                                                                                         |
-| 22  | [Ի՞նչ է «state-ի բարձրացում» (lifting state up) React-ում:](#Ի՞նչ-է-«state-ի-բարձրացում»-lifting-state-up-React-ում)                                                                                                                                     |
-| 23  | [Ինչպես իրականացնել element-ին պայմանական կերպով class ավելացնելը React-ում:](#Ինչպես-իրականացնել-element-ին-պայմանական-կերպով-class-ավելացնելը-React-ում)                                                                                               |
-| 24  | [Ի՞նչ են React-ում fragments-երը:](#Ի՞նչ-են-React-ում-fragments-երը)                                                                                                                                                                                     |
-| 25  | [Ինչպե՞ս կարելի է օպտիմալացնել React հավելվածի աշխատանքը (performance):](#Ինչպե՞ս-կարելի-է-օպտիմալացնել-React-հավելվածի-աշխատանքը-performance)                                                                                                           |
-| 26  | [Ի՞նչ է React-ում HOC (Higher-Order Component)-ը:](#Ի՞նչ-է-React-ում-HOC-Higher-Order-Component-ը)                                                                                                                                                       |
-| 27  | [Ի՞նչ տարբերություն կա HOC-երի և render props կոմպոնենտների միջև:](#Ի՞նչ-տարբերություն-կա-HOC-երի-և-render-props-կոմպոնենտների-միջև)                                                                                                                     |
-| 28  | [Ի՞նչ են React-ում refs-երը և ինչպես են դրանք օգտագործվում:](#Ի՞նչ-են-React-ում-refs-երը-և-ինչպես-են-դրանք-օգտագործվում)                                                                                                                                 |
-| 29  | [Ինչպես իրականացնել անիմացիա React հավելվածում:](#Ինչպես-իրականացնել-անիմացիա-React-հավելվածում)                                                                                                                                                         |
-| 30  | [Ինչպես է աշխատում context մեխանիզմը տվյալների փոխանցման համար React-ում:](#Ինչպես-է-աշխատում-context-մեխանիզմը-տվյալների-փոխանցման-համար-React-ում)                                                                                                     |
-| 31  | [Ի՞նչ են React-ում portals-երը:](#Ի՞նչ-են-React-ում-portals-երը)                                                                                                                                                                                         |
-| 32  | [Ինչպես իրականացնել lazy loading React-ում՝ օգտագործելով Suspense:](#Ինչպես-իրականացնել-lazy-loading-React-ում՝-օգտագործելով-Suspense)                                                                                                                   |
-| 33  | [React 16-ում ինչ նորույթներ են ավելացել:](#React-16-ում-ինչ-նորույթներ-են-ավելացել)                                                                                                                                                                     |
-| 34  | [Ինչպես օգտագործել React DevTools հավելվածը debug-ման համար:](#Ինչպես-օգտագործել-React-DevTools-հավելվածը-debug-ման-համար)                                                                                                                               |
-| 35  | [Ի՞նչ են React-ում hooks-երը և ինչի համար են դրանք օգտագործվում:](#Ի՞նչ-են-React-ում-hooks-երը-և-ինչի-համար-են-դրանք-օգտագործվում)                                                                                                                       |
-| 36  | [Ինչպես ստեղծել սեփական hook React-ում:](#Ինչպես-ստեղծել-սեփական-hook-React-ում)                                                                                                                                                                         |
-| 37  | [Ինչպես մշակել սխալները React հավելվածում՝ օգտագործելով Error Boundary:](#как-обрабатывать-ошибки-в-react-приложении-с-помощью-error-boundary)                                                                                                           |
-| 38  | [Ինչպես է աշխատում React-ի reconciliation (համաձայնման) ալգորիթմը:](#Ինչպես-է-աշխատում-React-ի-reconciliation-համաձայնման-ալգորիթմը)                                                                                                                     |
-| 39  | [Ի՞նչ հայտնի գրադարաններ եք ճանաչում state-ի կառավարմանը համար, բացի ներկառուցված useState-ից:](#Ի՞նչ-հայտնի-գրադարաններ-եք-ճանաչում-state-ի-կառավարմանը-համար-բացի-ներկառուցված-useState-ից)                                                            |
-| 40  | [Ինչպես կարելի է օպտիմալացնել React կոմպոնենտների rendering-ը:](#Ինչպես-կարելի-է-օպտիմալացնել-React-կոմպոնենտների-rendering-ը)                                                                                                                           |
-| 41  | [Ի՞նչ է deep comparison և ինչպես է այն օգտագործվում React-ի կատարողականի օպտիմիզացման համատեքստում:](#Ի՞նչ-է-deep-comparison-և-ինչպես-է-այն-օգտագործվում-React-ի-կատարողականի-օպտիմիզացման-համատեքստում)                                                 |
-| 42  | [Ինչպես օգտագործել memoization՝ կոմպոնենտների օպտիմալացման համար:](#Ինչպես-օգտագործել-memoization՝-կոմպոնենտների-օպտիմալացման-համար)                                                                                                                     |
-| 43  | [Ի՞նչ Redux օգտագործման դիզայն պատերններ եք ճանաչում:](#Ի՞նչ-Redux-օգտագործման-դիզայն-պատերններ-եք-ճանաչում)                                                                                                                                             |
-| 44  | [Ինչպես է աշխատում React Router գրադարանի մեխանիզմը:](#Ինչպես-է-աշխատում-React-Router-գրադարանի-մեխանիզմը)                                                                                                                                               |
-| 45  | [Ի՞նչ է SSR (Server-Side Rendering)-ը և ինչով է այն տարբերվում CSR (Client-Side Rendering)-ից:](#Ի՞նչ-է-ssr-server-side-rendering-և-ինչով-է-այն-տարբերվում-csr-client-side-rendering)                                                                    |
-| 46  | [Ինչպես իրականացնել կոմպոնենտների ասինխրոն լոադինգ React Router-ի միջոցով:](#Ինչպես-իրականացնել-կոմպոնենտների-ասինխրոն-լոադինգ-React-Router-ի-միջոցով)                                                                                                   |
-| 47  | [Որոնք են Redux-ի օգտագործման առավելությունները հավելվածի state-ի կառավարման համար:](#Որոնք-են-дает-Redux-ի-օգտագործման-առավելությունները-հավելվածի-state-ի-կառավարման-համար)                                                                            |
-| 48  | [Ի՞նչ է Redux Thunk-ը:](#Ի՞նչ-է-Redux-Thunk-ը)                                                                                                                                                                                                           |
-| 49  | [Ինչպես է աշխատում Redux Saga-ն:](#Ինչպես-է-աշխատում-Redux-Saga-ն)                                                                                                                                                                                       |
-| 50  | [Ինչպես իրականացնել lazy loading Redux reducer֊ների:](#Ինչպես-իրականացնել-lazy-loading-Redux-reducer-ների)                                                                                                                                               |
-| 51  | [Ի՞նչ է state-ի նորմալացում (state normalization) և ինչի համար է այն օգտագործվում հավելվածի state-ի կառավարման համատեքստում:](#Ի՞նչ-է-state-ի-նորմալացում-state-normalization-և-ինչի-համար-է֊այն֊օգտագործվում֊հավելվածի֊state֊ի֊կառավարման֊համատեքստում) |
-| 52  | [Ինչպես ստեղծել անիմացիոն անցում էջերի միջև Router-ի միջոցով:](#Ինչպես-ստեղծել-անիմացիոն-անցում-էջերի-միջև-React-Router-ի-միջոցով)                                                                                                                       |
-| 53  | [Ինչպես է աշխատում CSS Modules React-ում:](#Ինչպես-է-աշխատում-CSS-Modules-React-ում)                                                                                                                                                                     |
-| 54  | [Ի՞նչ են Styled Components-երը և ինչպես են դրանք օգտագործվում:](#Ի՞նչ-են-styled-components-երը-և-ինչպես-են֊դրանք֊օգտագործվում)                                                                                                                           |
-| 55  | [Ինչպես փոխանցել տվյալները սերվերից հաճախորդին՝ օգտագործելով SSR React-ում:](#Ինչպես-փոխանցել-տվյալները-սերվերից-հաճախորդին՝-օգտագործելով-SSR-React-ում)                                                                                                 |
-| 56  | [Որոնք են ֆունկցիոնալ կոմպոնենտների առավելությունները և թերությունները՝ համեմատած կլասս կոմպոնենտների հետ:](#Որոնք-են-ֆունկցիոնալ-կոմպոնենտների-առավելությունները-և-թերությունները՝-համեմատած-կլասս-կոմպոնենտների-հետ)                                   |
-| 57  | [Ինչ առանձնահատկություններ ունեն useEffect և useLayoutEffect hooks-երը:](#Ինչ-առանձնահատկություններ-ունեն-useEffect-և-useLayoutEffect-hooks֊երը)                                                                                                         |
-| 58  | [Ինչպես թարմացնել կոմպոնենտի state-ը ասինխրոն գործողության ավարտից հետո:](#Ինչպես-թարմացնել-կոմպոնենտի-state-ը-ասինխրոն-գործողության-ավարտից֊հետո)                                                                                                       |
-| 59  | [Ի՞նչ է CSS-in-JS-ը, և ինչ գրադարաններ եք ճանաչում այս գաղափարը React-ում իրականացնելու համար:](#Ի՞նչ-է-css-in-js-ը-և-ինչ-գրադարաններ-եք-ճանաչում-այս-գաղափարը-React-ում-իրականացնելու֊համար)                                                            |
-| 60  | [Ինչպես իրականացնել drag-and-drop ֆունկցիոնալությունը React հավելվածում:](#Ինչպես-իրականացնել-drag-and-drop-ֆունկցիոնալությունը-React֊հավելվածում)                                                                                                       |
-| 61  | [Ի՞նչ է CSS Grid-ը և ինչպես այն օգտագործել React-ում:](#Ի՞նչ-է-css-grid-ը-և-ինչպես-այն-օգտագործել-React֊ում)                                                                                                                                             |
-| 62  | [Ինչպես իրականացնել authentication և authorization React հավելվածում:](#Ինչպես-իրականացնել-authentication-և-authorization-React֊հավելվածում)                                                                                                             |
-| 63  | [Ինչպես է աշխատում client-side routing-ը React-ում:](#Ինչպես-է-աշխատում-client-side-routing-ը-React֊ում)                                                                                                                                                 |
-| 64  | [Ի՞նչ է code splitting-ը (կոդի բաժանումը) React-ում:](#Ի՞նչ-է-code-splitting-ը-կոդի-բաժանումը-React֊ում)                                                                                                                                                 |
-| 65  | [Ինչպես կառավարել state-ը այն կոմպոնենտների միջև, որոնք միմյանց հետ սերտ կապված չեն:](#Ինչպես-կառավարել-state-ը-այն-կոմպոնենտների-միջև-որոնք-միմյանց֊հետ֊սերտ֊կապված֊չեն)                                                                                |
-| 66  | [Ի՞նչ գործիքներ է տրամադրում React-ը կոմպոնենտների թեստավորման համար:](#Ի՞նչ-գործիքներ-է-տրամադրում-React-ը-կոմպոնենտների֊թեստավորման֊համար)                                                                                                             |
-| 67  | [Ինչպես է աշխատում React-ում կոմպոնենտների «lazy loading»-ը (դանդաղ / պահանջի հիման վրա բեռնումը):](#Ինչպես-է-աշխատում-React-ում-կոմպոնենտների-lazy-loading-ը)                                                                                           |
-| 68  | [Ի՞նչ են React-ում սինթետիկ իրադարձությունները (synthetic events):](#Ի՞նչ-են-React-ում-սինթետիկ-իրադարձությունները-synthetic-events)                                                                                                                     |
-| 69  | [Ինչպես կազմակերպել կոմպոնենտների վերօգտագործումը (reuse) React-ում:](#Ինչպես-կազմակերպել-կոմպոնենտների-վերօգտագործումը-reuse-React֊ում)                                                                                                                 |
-| 70  | [Ի՞նչ են high-order components (HOC)-երը և ինչպես ստեղծել դրանք:](#Ի՞նչ-են-high-order-high-order-components-HOC-և-ինչպես-ստեղծել-դրանք)                                                                                                                  |
-| 71  | [Ի՞նչ սկզբունքները պետք է պահպանել կոմպոնենտները React-ում անվանելու ժամանակ:](#Ի՞նչ-սկզբունքները-պետք-է-պահպանել-կոմպոնենտները-React-ում-անվանելու-ժամանակ)                                                                                             |
-| 72  | [Ինչպես իրականացնել կոմպոնենտների միջև անցումների անիմացիան React Router-ում:](#Ինչպես-իրականացնել-կոմպոնենտների-միջև-անցումների-անիմացիան-React-Router-ում)                                                                                             |
-| 73  | [Ի՞նչ է React-ում «deep state transfer» (խորը state փոխանցում):](#Ի՞նչ-է-React-ում-deep-state-transfer-խորը-state-փոխանցում)                                                                                                                             |
-| 74  | [Ինչպես իրականացնել modal window React հավելվածում:](#Ինչպես-իրականացնել-modal-window-React-հավելվածում)                                                                                                                                                 |
-| 75  | [Ի՞նչ է SSR (Server-Side Rendering)-ը և ինչի համար է այն օգտագործվում:](#что-такое-ssr-server-side-rendering-и-зачем-его-использовать)                                                                                                                   |
-| 76  | [Որոնք են CSS Modules-ի օգտագործման առավելությունները:](#какие-преимущества-дает-использование-css-модулей-css-modules)                                                                                                                                  |
-| 77  | [Ի՞նչ է list virtualization-ը (ցանկերի վիրտուալացում) և ինչպես է այն իրականացվում React-ում:](#что-такое-виртуальизация-списка-list-virtualization-и-как-она-реализуется-в-react)                                                                        |
-| 78  | [Ինչպես իրականացնել components include React-ում:](#как-реализовать-include-компонентов-в-react)                                                                                                                                                         |
-| 79  | [Ի՞նչ է reconciliation-ը React համատեքստում:](#что-такое-консилиация-reconciliation-в-контексте-react)                                                                                                                                                   |
-| 80  | [Ինչպես մշակել forms React-ում:](#как-обрабатывать-формы-в-react)                                                                                                                                                                                        |
-| 81  | [Ինչ ալտերնատիվներ կան Redux-ի փոխարեն React հավելվածներում state-ի կառավարման համար:](#какие-существуют-альтернативы-redux-для-управления-состоянием-в-react-приложениях)                                                                               |
-| 82  | [Ինչպես է աշխատում Hot Module Replacement (HMR)-ը React հավելվածների զարգացման միջավայրում:](#как-работает-горячая-замена-модулей-hot-module-replacement-в-среде-разработки-react-приложений)                                                            |
-| 83  | [Ի՞նչ է memoization-ը և ինչպես կարելի է այն կիրառել React-ում:](#что-такое-мемоизация-memoization-и-как-она-может-быть-применена-в-react)                                                                                                                |
-| 84  | [Ինչպես իրականացնել data binding React-ում:](#как-реализовать-связывание-данных-data-binding-в-react)                                                                                                                                                    |
-| 85  | [Ի՞նչ է React-ում context passing-ը (տվյալների փոխանցում context-ի միջոցով):](#что-такое-передача-данных-через-контекст-context-passing-в-react)                                                                                                         |
-| 86  | [Ինչպես իրականացնել element-ների drag-and-drop React հավելվածում:](#как-реализовать-перетаскивание-drag-and-drop-элементов-в-react-приложении)                                                                                                           |
-| 87  | [Ի՞նչ են computed properties-երը React համատեքստում:](#что-такое-вычисляемые-свойства-computed-properties-в-контексте-react)                                                                                                                             |
-| 88  | [Որ lifecycle մեթոդներն են հանվել React 16-ում:](#какие-методы-жизненного-цикла-были-убраны-в-react-16)                                                                                                                                                  |
-| 89  | [Ինչպես իրականացնել images-ի lazy loading React-ում:](#как-реализовать-ленивую-загрузку-lazy-loading-изображений-в-react)                                                                                                                                |
-| 90  | [Ի՞նչ են render props-երը և ինչպես են դրանք օգտագործվում:](#что-такое-рендер-пропсы-render-props-и-как-они-используются)                                                                                                                                 |
-| 91  | [Ինչպես է աշխատում third-party libraries-ի lazy loading React-ում:](#как-работает-ленивая-загрузка-lazy-loading-сторонних-библиотек-в-react)                                                                                                             |
-| 92  | [Ի՞նչ է reactive programming-ը React համատեքստում:](#что-такое-реактивное-программирование-reactive-programming-в-контексте-react)                                                                                                                       |
-| 93  | [Ինչպես մշակել սխալները՝ օգտագործելով hooks React-ում:](#как-обрабатывать-ошибки-при-использовании-хуков-hooks-в-react)                                                                                                                                  |
-| 94  | [Ի՞նչ է state encapsulation-ը (վիճակի ինկապսուլացիա) React-ում:](#что-такое-инкапсуляция-состояния-state-encapsulation-в-react)                                                                                                                          |
-| 95  | [Ինչպես իրականացնել անիմացիոն անցում կոմպոնենտների միջև React Native-ում:](#как-реализовать-анимированный-переход-между-компонентами-в-react-native)                                                                                                     |
-| 96  | [Ի՞նչ են stable keys-երը և ինչի համար են դրանք անհրաժեշտ React-ում:](#что-такое-стабильные-идентификаторы-stable-keys-и-зачем-они-нужны-в-react)                                                                                                         |
-| 97  | [Ինչպես թարմացնել կոմպոնենտի state-ը props-երի փոփոխությունից հետո:](#как-обновить-состояние-компонента-после-изменения-props)                                                                                                                           |
-| 98  | [Ի՞նչ են React-ում Higher-Order Components (HOC)-երը:](#что-такое-компоненты-высшего-порядка-higher-order-components-hoc-в-react)                                                                                                                        |
-| 99  | [Ինչպիսի patterns-ներ գոյություն ունեն ասինխրոն աշխատանքի համար React-ում:](#какие-есть-паттерны-для-работы-с-асинхронностью-в-react)                                                                                                                    |
-| 100 | [Ի՞նչ է reactive data flow-ը React համատեքստում:](#что-такое-реактивный-поток-данных-reactive-data-flow-в-контексте-react)                                                                                                                               |
+| 1   | [Ի՞նչ է React-ը։](#what-is-react) |
+| 2   | [Որո՞նք են React-ի օգտագործման հիմնական առավելությունները։](#main-benefits-of-using-react) |
+| 3   | [Ի՞նչ է JSX-ը։](#what-is-jsx) |
+| 4   | [Որո՞նք են React-ում class components-ների և functional components֊ների միջև հիմնական տարբերությունները:](#differences-between-class-and-functional-components-in-react) |
+| 5   | [Ի՞նչ է վիրտուալ DOM-ը և ինչպե՞ս է այն աշխատում։](#what-is-virtual-dom-and-how-it-works) |
+| 6   | [Ինչպիսի՞ կոմպոնենտների կյանքի ցիկլի մեթոդներ գիտեք։](#react-component-lifecycle-methods) |
+| 7   | [Ի՞նչ է React կոմպոնենտի «ստատուսը» (state):](#what-is-component-state) |
+| 8   | [Ինչպե՞ս թարմացնել կոմպոնենտի վիճակը (state):](#how-to-update-component-state) |
+| 9   | [Ի՞նչ են React-ում props-երը:](#what-are-props-in-react) |
+| 10  | [Ինչ տարբերություն կա state-ի և props-երի միջև:](#difference-between-state-and-props) |
+| 11  | [Ինչպես կարելի է մշակել իրադարձությունները (events) React-ում:](#handling-events-in-react) |
+| 12  | [Ի՞նչ է React-ում պայմանական (conditional) rendering-ը:](#conditional-rendering-in-react) |
+| 13  | [Ինչպես փոխանցել տվյալները կոմպոնենտների միջև՝ վերև և ներքև իերարխիայի մեջ:](#passing-data-between-components) |
+| 14  | [Ինչպես կատարել HTTP հարցումներ React-ում:](#making-http-requests-in-react) |
+| 15  | [Ի՞նչ է React-ում context-ը և ինչի համար է օգտագործվում:](#what-is-context-in-react-and-its-usage) |
+| 16  | [Ինչպես իրականացնել PureComponent React-ում:](#implementing-purecomponent-in-react) |
+| 17  | [Ի՞նչ են React էլեմենտների ցանկերում keys-երը և ինչի համար են դրանք անհրաժեշտ:](#keys-in-react-lists-and-their-importance) |
+| 18  | [Ինչպես օգտագործել (styles) React կոմպոնենտներում:](#using-styles-in-react-components) |
+| 19  | [Ի՞նչ են «կառավարվող կոմպոնենտները» (controlled components) React-ում:](#controlled-components-in-react) |
+| 20  | [Ի՞նչ են «չկառավարվող կոմպոնենտները» (uncontrolled components) React-ում:](#uncontrolled-components-in-react) |
+| 21  | [Ինչպես ստեղծել form React-ում:](#creating-forms-in-react) |
+| 22  | [Ի՞նչ է «state-ի բարձրացում» (lifting state up) React-ում:](#lifting-state-up-in-react) |
+| 23  | [Ինչպես իրականացնել element-ին պայմանական կերպով class ավելացնելը React-ում:](#conditional-class-assignment-in-react) |
+| 24  | [Ի՞նչ են React-ում fragments-երը:](#react-fragments) |
+| 25  | [Ինչպե՞ս կարելի է օպտիմալացնել React հավելվածի աշխատանքը (performance):](#optimizing-react-performance) |
+| 26  | [Ի՞նչ է React-ում HOC (Higher-Order Component)-ը:](#higher-order-component-hoc-in-react) |
+| 27  | [Ի՞նչ տարբերություն կա HOC-երի և render props կոմպոնենտների միջև:](#differences-between-hoc-and-render-props) |
+| 28  | [Ի՞նչ են React-ում refs-երը և ինչպես են դրանք օգտագործվում:](#refs-in-react-and-how-to-use-them) |
+| 29  | [Ինչպես իրականացնել անիմացիա React հավելվածում:](#animating-in-react) |
+| 30  | [Ինչպես է աշխատում context մեխանիզմը տվյալների փոխանցման համար React-ում:](#how-context-works-for-data-passing-in-react) |
+| 31  | [Ի՞նչ են React-ում portals-երը:](#portals-in-react) |
+| 32  | [Ինչպես իրականացնել lazy loading React-ում՝ օգտագործելով Suspense:](#lazy-loading-with-suspense-in-react) |
+| 33  | [React 16-ում ինչ նորույթներ են ավելացել:](#new-features-in-react-16) |
+| 34  | [Ինչպես օգտագործել React DevTools հավելվածը debug-ման համար:](#using-react-devtools-for-debugging) |
+| 35  | [Ի՞նչ են React-ում hooks-երը և ինչի համար են դրանք օգտագործվում:](#hooks-in-react-and-their-usage) |
+| 36  | [Ինչպես ստեղծել սեփական hook React-ում:](#creating-custom-hooks-in-react) |
+| 37  | [Ինչպես մշակել սխալները React հավելվածում՝ օգտագործելով Error Boundary:](#handling-errors-with-error-boundary-in-react) |
+| 38  | [Ինչպես է աշխատում React-ի reconciliation (համաձայնման) ալգորիթմը:](#how-react-reconciliation-works) |
+| 39  | [Ի՞նչ հայտնի գրադարաններ եք ճանաչում state-ի կառավարմանը համար, բացի useState-ից:](#popular-state-management-libraries-besides-usestate) |
+| 40  | [Ինչպես կարելի է օպտիմալացնել React կոմպոնենտների rendering-ը:](#optimizing-component-rendering-in-react) |
+| 41  | [Ի՞նչ է deep comparison և ինչպես է այն օգտագործվում React-ի կատարողականի օպտիմիզացման համատեքստում:](#deep-comparison-in-react-performance-optimization) |
+| 42  | [Ինչպես օգտագործել memoization՝ կոմպոնենտների օպտիմալացման համար:](#memoization-for-component-optimization) |
+| 43  | [Ի՞նչ Redux օգտագործման դիզայն պատերններ եք ճանաչում:](#redux-design-patterns) |
+| 44  | [Ինչպես է աշխատում React Router գրադարանի մեխանիզմը:](#how-react-router-works) |
+| 45  | [Ի՞նչ է SSR (Server-Side Rendering)-ը և ինչով է այն տարբերվում CSR (Client-Side Rendering)-ից:](#ssr-vs-csr) |
+| 46  | [Ինչպես իրականացնել կոմպոնենտների ասինխրոն լոադինգ React Router-ի միջոցով:](#asynchronous-loading-of-components-in-react-router) |
+| 47  | [Որոնք են Redux-ի օգտագործման առավելությունները հավելվածի state-ի կառավարման համար:](#benefits-of-using-redux-for-state-management) |
+| 48  | [Ի՞նչ է Redux Thunk-ը:](#what-is-redux-thunk) |
+| 49  | [Ինչպես է աշխատում Redux Saga-ն:](#how-redux-saga-works) |
+| 50  | [Ինչպես իրականացնել lazy loading Redux reducer֊ների:](#lazy-loading-redux-reducers) |
+| 51  | [Ի՞նչ է state-ի նորմալացում (state normalization) և ինչի համար է այն օգտագործվում:](#state-normalization-and-its-purpose) |
+| 52  | [Ինչպես ստեղծել անիմացիոն անցում էջերի միջև Router-ի միջոցով:](#animated-page-transitions-with-router) |
+| 53  | [Ինչպես է աշխատում CSS Modules React-ում:](#how-css-modules-work-in-react) |
+| 54  | [Ի՞նչ են Styled Components-երը և ինչպես են դրանք օգտագործվում:](#styled-components-and-their-usage) |
+| 55  | [Ինչպես փոխանցել տվյալները սերվերից հաճախորդին՝ օգտագործելով SSR React-ում:](#passing-data-from-server-to-client-with-ssr) |
+| 56  | [Որոնք են ֆունկցիոնալ կոմպոնենտների առավելությունները և թերությունները՝ համեմատած կլասս կոմպոնենտների հետ:](#pros-and-cons-of-functional-components-vs-class-components) |
+| 57  | [Ինչ առանձնահատկություններ ունեն useEffect և useLayoutEffect hooks-երը:](#differences-between-useeffect-and-uselayouteffect) |
+| 58  | [Ինչպես թարմացնել կոմպոնենտի state-ը ասինխրոն գործողության ավարտից հետո:](#updating-state-after-asynchronous-actions) |
+| 59  | [Ի՞նչ է CSS-in-JS-ը, և ինչ գրադարաններ եք ճանաչում այս գաղափարը React-ում իրականացնելու համար:](#css-in-js-and-libraries-for-react) |
+| 60  | [Ինչպես իրականացնել drag-and-drop ֆունկցիոնալությունը React հավելվածում:](#drag-and-drop-functionality-in-react) |
+| 61  | [Ի՞նչ է CSS Grid-ը և ինչպես այն օգտագործել React-ում:](#css-grid-usage-in-react) |
+| 62  | [Ինչպես իրականացնել authentication և authorization React հավելվածում:](#authentication-and-authorization-in-react) |
+| 63  | [Ինչպես է աշխատում client-side routing-ը React-ում:](#client-side-routing-in-react) |
+| 64  | [Ի՞նչ է code splitting-ը (կոդի բաժանումը) React-ում:](#code-splitting-in-react) |
+| 65  | [Ինչպես կառավարել state-ը այն կոմպոնենտների միջև, որոնք միմյանց հետ սերտ կապված չեն:](#managing-state-between-loosely-coupled-components) |
+| 66  | [Ի՞նչ գործիքներ է տրամադրում React-ը կոմպոնենտների թեստավորման համար:](#tools-for-testing-react-components) |
+| 67  | [Ինչպես է աշխատում React-ում կոմպոնենտների «lazy loading»-ը:](#lazy-loading-of-react-components) |
+| 68  | [Ի՞նչ են React-ում սինթետիկ իրադարձությունները (synthetic events):](#synthetic-events-in-react) |
+| 69  | [Ինչպես կազմակերպել կոմպոնենտների վերօգտագործումը (reuse) React-ում:](#reuse-of-components-in-react) |
+| 70  | [Ի՞նչ են high-order components (HOC)-երը և ինչպես ստեղծել դրանք:](#high-order-components-hoc-creation) |
+| 71  | [Ի՞նչ սկզբունքները պետք է պահպանել կոմպոնենտները React-ում անվանելու ժամանակ:](#naming-conventions-for-react-components) |
+| 72  | [Ինչպես իրականացնել կոմպոնենտների միջև անցումների անիմացիան React Router-ում:](#animated-transitions-between-components-in-react-router) |
+| 73  | [Ի՞նչ է React-ում «deep state transfer» (խորը state փոխանցում):](#deep-state-transfer-in-react) |
+| 74  | [Ինչպես իրականացնել modal window React հավելվածում:](#modal-window-in-react) |
+| 75  | [Ի՞նչ է SSR (Server-Side Rendering)-ը և ինչի համար է այն օգտագործվում:](#ssr-usage-and-purpose) |
+| 76  | [Որոնք են CSS Modules-ի օգտագործման առավելությունները:](#benefits-of-css-modules) |
+| 77  | [Ի՞նչ է list virtualization-ը (ցանկերի վիրտուալացում) և ինչպես է այն իրականացվում React-ում:](#list-virtualization-in-react) |
+| 78  | [Ինչպես իրականացնել components include React-ում:](#including-components-in-react) |
+| 79  | [Ի՞նչ է reconciliation-ը React համատեքստում:](#reconciliation-in-react-context) |
+| 80  | [Ինչպես մշակել forms React-ում:](#forms-handling-in-react) |
+| 81  | [Ինչ ալտերնատիվներ կան Redux-ի փոխարեն React հավելվածներում state-ի կառավարման համար:](#alternatives-to-redux-in-react-apps) |
+| 82  | [Ինչպես է աշխատում Hot Module Replacement (HMR)-ը React հավելվածների զարգացման միջավայրում:](#hot-module-replacement-hmr-in-react) |
+| 83  | [Ի՞նչ է memoization-ը և ինչպես կարելի է այն կիրառել React-ում:](#memoization-usage-in-react) |
+| 84  | [Ինչպես իրականացնել data binding React-ում:](#data-binding-in-react) |
+| 85  | [Ի՞նչ է React-ում context passing-ը (տվյալների փոխանցում context-ի միջոցով):](#context-passing-in-react) |
+| 86  | [Ինչպես իրականացնել element-ների drag-and-drop React հավելվածում:](#drag-and-drop-elements-in-react) |
+| 87  | [Ի՞նչ են computed properties-երը React համատեքստում:](#computed-properties-in-react) |
+| 88  | [Որ lifecycle մեթոդներն են հանվել React 16-ում:](#lifecycle-methods-removed-in-react-16) |
+| 89  | [Ինչպես իրականացնել images-ի lazy loading React-ում:](#lazy-loading-images-in-react) |
+| 90  | [Ի՞նչ են render props-երը և ինչպես են դրանք օգտագործվում:](#render-props-and-usage) |
+| 91  | [Ինչպես է աշխատում third-party libraries-ի lazy loading React-ում:](#lazy-loading-third-party-libraries-in-react) |
+| 92  | [Ի՞նչ է reactive programming-ը React համատեքստում:](#reactive-programming-in-react) |
+| 93  | [Ինչպես մշակել սխալները՝ օգտագործելով hooks React-ում:](#handling-errors-with-hooks-in-react) |
+| 94  | [Ի՞նչ է state encapsulation-ը (վիճակի ինկապսուլացիա) React-ում:](#state-encapsulation-in-react) |
+| 95  | [Ինչպես իրականացնել անիմացիոն անցում կոմպոնենտների միջև React Native-ում:](#animated-transitions-between-components-in-react-native) |
+| 96  | [Ի՞նչ են stable keys-երը և ինչի համար են դրանք անհրաժեշտ React-ում:](#stable-keys-in-react) |
+| 97  | [Ինչպես թարմացնել կոմպոնենտի state-ը props-երի փոփոխությունից հետո:](#updating-state-after-props-change) |
+| 98  | [Ի՞նչ են React-ում Higher-Order Components (HOC)-երը:](#higher-order-components-hoc-in-react) |
+| 99  | [Ինչպիսի patterns-ներ գոյություն ունեն ասինխրոն աշխատանքի համար React-ում:](#patterns-for-async-operations-in-react) |
+| 100 | [Ի՞նչ է reactive data flow-ը React համատեքստում:](#reactive-data-flow-in-react) |                                                                                                                           |
 
 ### Ի՞նչ է React-ը։
 
@@ -4383,4 +4383,4 @@ const ButtonWithClickHandling = withClickHandling(Button);
 
 В целом, реактивный поток данных в контексте React стремится упростить и автоматизировать обновление пользовательского интерфейса в ответ на изменения данных, что способствует более предсказуемому и эффективному управлению состоянием приложения.
 
-### **[⬆ Դեպի վերև](#содержание)**
+### **[⬆ Դեպի վերև](#բովանդակություն)**
